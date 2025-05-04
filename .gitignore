@@ -1,0 +1,3 @@
+__pycache__/                                  # Python 缓存文件夹
+*.pyc                                         # 编译后生成的 .pyc 文件
+.env                                          # 隐藏的环境变量配置
