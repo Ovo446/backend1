@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify          # 导入蓝图工具和 jsonify（返回 JSON 用）
-from .ted_scraper import get_ted_talks        # 从本地导入 TED 爬虫函数
+from ted_scraper import get_ted_talks        # 从本地导入 TED 爬虫函数
 
 main = Blueprint('main', __name__)            # 创建一个蓝图对象，名字叫 main
 
