@@ -1,0 +1,4 @@
+flask                                         # Flask 框架
+requests                                      # 发请求用的库
+beautifulsoup4                                # 网页解析用
+gunicorn                                      # 给 Render 用的 WSGI 服务器（必须）
